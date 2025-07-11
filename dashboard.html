@@ -1,0 +1,18 @@
+
+<h2>📈 Dashboard</h2>
+<canvas id="grafico" width="400" height="200"></canvas>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+const ctx = document.getElementById('grafico').getContext('2d');
+new Chart(ctx, {
+  type: 'bar',
+  data: {
+    labels: ['Projetos', 'Análise de Dados', 'Excel'],
+    datasets: [{
+      label: 'Progresso (%)',
+      data: [80, 40, 60],
+      backgroundColor: ['#f8bbd0', '#b2dfdb', '#d1c4e9']
+    }]
+  }
+});
+</script>

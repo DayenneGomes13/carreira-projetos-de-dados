@@ -1,0 +1,12 @@
+
+<h2>📝 Minhas Anotações</h2>
+<textarea id="notas" rows="10" cols="50" placeholder="Escreva suas dificuldades, ideias, etc..."></textarea>
+<button onclick="salvar()">Salvar</button>
+<script>
+function salvar() {
+  localStorage.setItem("notas", document.getElementById("notas").value);
+}
+window.onload = function() {
+  document.getElementById("notas").value = localStorage.getItem("notas") || "";
+}
+</script>
