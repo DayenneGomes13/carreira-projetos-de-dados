@@ -7,11 +7,11 @@ const ctx = document.getElementById('grafico').getContext('2d');
 new Chart(ctx, {
   type: 'bar',
   data: {
-    labels: ['Cursos Concluídos', 'Em Andamento'],
+    labels: ['Projetos', 'Análise de Dados', 'Excel'],
     datasets: [{
-      label: 'Progresso',
-      data: [2, 3],
-      backgroundColor: ['#ce93d8', '#f48fb1']
+      label: 'Progresso (%)',
+      data: [80, 40, 60],
+      backgroundColor: ['#f8bbd0', '#b2dfdb', '#d1c4e9']
     }]
   }
 });
