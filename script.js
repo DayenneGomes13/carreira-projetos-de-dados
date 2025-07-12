@@ -1,1 +1,0 @@
-console.log('Bem-vinda ao Project Day!');
