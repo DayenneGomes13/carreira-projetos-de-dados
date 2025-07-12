@@ -1,0 +1,29 @@
+
+body {
+    font-family: 'Comic Sans MS', cursive;
+    background: linear-gradient(#fff0f5, #ffe4e1);
+    color: #4b0082;
+    text-align: center;
+}
+header {
+    padding: 2em;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav li {
+    margin: 10px;
+}
+a {
+    text-decoration: none;
+    color: #ff69b4;
+    background-color: #fffacd;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    display: inline-block;
+}
+a:hover {
+    background-color: #ffd700;
+}
