@@ -1,0 +1,51 @@
+/* Estilo Y2K Rosa pastel com visual de joguinho */
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+body {
+  background: linear-gradient(to bottom, #fff0f6, #ffe3f3);
+  font-family: 'Fredoka One', cursive;
+  color: #4b0076;
+  text-align: center;
+  padding: 30px;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #ff4da6;
+  text-shadow: 2px 2px #ffd1f3;
+  margin-bottom: 10px;
+}
+
+.frase {
+  font-size: 1.1rem;
+  font-weight: normal;
+  margin-bottom: 30px;
+  color: #5b005f;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.menu a {
+  background: #fffbd9;
+  color: #ff4081;
+  text-decoration: none;
+  padding: 15px 25px;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-weight: bold;
+  width: 270px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: all 0.2s ease-in-out;
+}
+
+.menu a:hover {
+  transform: scale(1.05);
+  background-color: #ffecf2;
+  box-shadow: 0 6px 10px rgba(0,0,0,0.15);
+}
